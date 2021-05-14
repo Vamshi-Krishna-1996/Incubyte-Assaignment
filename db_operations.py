@@ -33,6 +33,6 @@ class DBOperations():
             print("Some error occurred in inserting data")
 
             
-    def close_connection(self):
+    def closeConnection(self):
         self.conn.close()
    

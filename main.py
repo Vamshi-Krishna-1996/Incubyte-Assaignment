@@ -31,7 +31,7 @@ def mainFunc():
         table_name = "Table_" + each_data[7]
         db.createTable(table_name) #it ignores in case if table already exists
         db.insertData(table_name,str(each_data))
-        db.close_connection()
+        db.closeConnection()
 
 
 if __name__ == '__main__':
